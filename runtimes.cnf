@@ -1,0 +1,15 @@
+[DIRICHLET DATA]
+xlower = 0
+xupper = 1
+ylower = 0
+yupper = 1
+bc_xlower = np.sin(2*np.pi*y)
+bc_xupper = -np.sin(2*np.pi*y)
+bc_ylower = 0
+bc_yupper = 0
+laplacian = 0
+
+[FD SOLUTION]
+n = 160
+solver = lu
+

@@ -1,0 +1,13 @@
+[DIRICHLET DATA]
+bc_all = np.exp(2*np.pi*x)*np.cos(2*np.pi*y)
+laplacian = 0
+xlower = 0
+xupper = 1
+ylower = 0
+yupper = 1
+
+[FD SOLUTION]
+n = 160
+solver = cg
+tolerance = 1e-12
+
